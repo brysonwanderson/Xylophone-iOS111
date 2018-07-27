@@ -32,7 +32,7 @@ class ViewController: UIViewController{
         
         player.prepareToPlay()
         player.play()
-        }  catch let error as Error {
+        }  catch _ as Error {
         
         
         }
